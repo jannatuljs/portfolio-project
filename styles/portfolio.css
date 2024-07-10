@@ -1,0 +1,88 @@
+/* Nav Style */
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .btn-primary{
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 28px;
+}
+nav ul li{
+    list-style: none;
+
+}
+
+   
+
+.banner{
+
+    /* align-items: center; */
+    background-image: url(../Hero-bg.png); 
+    margin-bottom: ;
+    height: 550px;
+    padding: 21px 24px;
+ 
+}
+
+.banner-container{
+    display: flex;
+   
+}
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+}
+.text-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px;
+     margin-top: 32px;
+    color: rgb(13, 19, 33);
+}
+.paragraph-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.btn-contact{
+ display: block;
+ margin-left: 395px;
+ margin-bottom: 44px;
+ font-size: 20px;
+ color: rgb(255, 255, 255);
+ font-weight: 600;
+   border-radius: 8px;
+   padding: 21px 24px;
+   background: rgb(13, 19, 33);
+   border: none; 
+   
+ 
+}
