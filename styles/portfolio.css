@@ -83,6 +83,221 @@ nav ul li{
    padding: 21px 24px;
    background: rgb(13, 19, 33);
    border: none; 
+}
+/* main style */
+main{
+   
+  /* height: 900px; */
+  margin: 10px 50px;
+  border: 16px;
+  padding: 80px 97px;
+  
+}
+/* section style */
+*{
+   text-align: center;
+    margin:10px auto;
+}
+.development{
+    border-radius: 16px;
+    background:  rgba(13, 19, 33, 0.02);
+    margin-bottom: 10px;
+   
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+     
+}
+.section-description{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-self:flex-start;
+   
+}
+.group-1{
+    margin-bottom: 5px;
+    border: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
+}
+ .card{
+    display: flex;
+    text-align: left;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+margin-right: 20px;
+border-radius: 8px;
+ 
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: left;
+
+ }
+ .conten{
+     margin: 0px 10px; 
+     
+ }
+ .text-left{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .text-description{
+    font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .image-section img{
+width: 200px;
+height: 200px;
+ }
+ 
    
  
+ 
+ .left{
+    display: flex;;
+    background-color: rgb(255, 255, 255)
+    rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+   border: 10px;
+   padding: 20px;
+ } 
+ .inspiration{
+    margin-bottom: 70px;
+ }
+      
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 18px 0px;
+}
+.target-title{
+     
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+color: rgb(13, 19, 33);
+margin-bottom: 15px;
+}
+.target-description{
+    Font: Azeret Mono
+Font weight: 400
+Font size: 16pxpx
+Row height: 26px
+Letter spacing: 0%
+Align: Align center
+}
+.iframe{
+    flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
+border: 15px;
+border-radius: 18px;
+}
+/* skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    box-shadow: 20px;
+}
+.skill{
+
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.rose{
+    order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.lemon{
+    order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+border-radius: 16px;
+ background-color:   rgba(255, 223, 0, 0.05);
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 88px 60px;
+    background-image: url(../handshake.jpg);
+     border-radius: 18px;
+
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support-button{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.btn-support{
+margin-right:16px;
 }
